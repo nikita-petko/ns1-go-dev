@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/nkpetko/ns1-go.v2/mockns1"
 	"github.com/stretchr/testify/require"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/mockns1"
 )
 
 func TestTestCase(t *testing.T) {

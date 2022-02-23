@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/account"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/account"
 )
 
 // APIKeysService handles 'account/apikeys' endpoint.

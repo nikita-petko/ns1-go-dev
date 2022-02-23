@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/account"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/account"
 )
 
 func TestCreateTeam(t *testing.T) {

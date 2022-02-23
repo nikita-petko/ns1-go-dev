@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/monitor"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/monitor"
 )
 
 // NotificationsService handles 'monitoring/lists' endpoint.

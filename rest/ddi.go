@@ -1,6 +1,6 @@
 package rest
 
-import "github.com/nkpetko/ns1-go.v2/rest/model/account"
+import "gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/account"
 
 // ddiTeam wraps an NS1 /accounts/teams resource for DDI.
 // Used for internally mapping between DDI permissions to maintain backwards compatibility.

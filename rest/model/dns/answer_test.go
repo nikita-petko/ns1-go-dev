@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/data"
 	"github.com/stretchr/testify/assert"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/data"
 )
 
 func TestUnmarshalAnswer(t *testing.T) {

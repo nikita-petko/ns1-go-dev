@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/pulsar"
 
-	"github.com/nkpetko/ns1-go.v2/mockns1"
-	api "github.com/nkpetko/ns1-go.v2/rest"
 	"github.com/stretchr/testify/require"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/mockns1"
+	api "gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest"
 )
 
 func TestApplication(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/dhcp"
 )
 
 // OptionDefService handles the 'scope group' endpoints.

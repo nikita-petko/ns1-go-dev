@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/pulsar"
 )
 
 // AddPulsarJobListTestCase sets up a test case for the api.Client.PulsarJobs.List()

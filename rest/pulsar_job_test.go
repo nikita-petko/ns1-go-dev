@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nkpetko/ns1-go.v2/mockns1"
 	"github.com/stretchr/testify/require"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/mockns1"
 
-	api "github.com/nkpetko/ns1-go.v2/rest"
-	"github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
+	api "gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/pulsar"
 )
 
 func TestPulsarJob(t *testing.T) {

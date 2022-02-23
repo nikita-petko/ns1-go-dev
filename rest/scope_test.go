@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/dhcp"
 
-	"github.com/nkpetko/ns1-go.v2/mockns1"
-	api "github.com/nkpetko/ns1-go.v2/rest"
+	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/mockns1"
+	api "gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest"
 )
 
 func TestDHCPScope(t *testing.T) {
