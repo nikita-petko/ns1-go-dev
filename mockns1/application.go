@@ -1,7 +1,7 @@
 package mockns1
 
 import (
-	"gopkg.in/ns1/ns1-go.v2/rest/model/pulsar"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
 	"net/http"
 )
 

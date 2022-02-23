@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/ns1/ns1-go.v2/rest/model/data"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/data"
 )
 
 // DataSourcesService handles 'data/sources' endpoint.

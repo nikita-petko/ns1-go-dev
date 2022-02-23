@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	api "gopkg.in/ns1/ns1-go.v2/rest"
+	api "https://github.com/nkpetko/ns1-go.v2/rest"
 )
 
 var client *api.Client

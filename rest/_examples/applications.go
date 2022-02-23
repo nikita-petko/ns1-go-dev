@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"gopkg.in/ns1/ns1-go.v2/rest/model/pulsar"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
 	"time"
 
-	api "gopkg.in/ns1/ns1-go.v2/rest"
+	api "https://github.com/nkpetko/ns1-go.v2/rest"
 )
 
 var client *api.Client

@@ -3,7 +3,7 @@ package rest
 import (
 	"net/http"
 
-	"gopkg.in/ns1/ns1-go.v2/rest/model/account"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/account"
 )
 
 // WarningsService handles 'account/usagewarnings' endpoint.

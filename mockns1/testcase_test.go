@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"gopkg.in/ns1/ns1-go.v2/mockns1"
+	"https://github.com/nkpetko/ns1-go.v2/mockns1"
 )
 
 func TestTestCase(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/ns1/ns1-go.v2/rest/model/account"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/account"
 )
 
 func TestCreateAPIKey(t *testing.T) {

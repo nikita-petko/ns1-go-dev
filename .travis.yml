@@ -1,7 +1,7 @@
 language: go
 go:
 - 1.15.x
-go_import_path: gopkg.in/ns1/ns1-go.v2
+go_import_path: https://github.com/nkpetko/ns1-go.v2
 script: script/test
 notifications:
   slack: 

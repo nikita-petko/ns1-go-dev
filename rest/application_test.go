@@ -1,13 +1,13 @@
 package rest_test
 
 import (
-	"gopkg.in/ns1/ns1-go.v2/rest/model/pulsar"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
 	"net/http"
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"gopkg.in/ns1/ns1-go.v2/mockns1"
-	api "gopkg.in/ns1/ns1-go.v2/rest"
+	"https://github.com/nkpetko/ns1-go.v2/mockns1"
+	api "https://github.com/nkpetko/ns1-go.v2/rest"
 )
 
 func TestApplication(t *testing.T) {

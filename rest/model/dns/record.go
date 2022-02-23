@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"gopkg.in/ns1/ns1-go.v2/rest/model/data"
-	"gopkg.in/ns1/ns1-go.v2/rest/model/filter"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/data"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/filter"
 )
 
 // Record wraps an NS1 /zone/{zone}/{domain}/{type} resource

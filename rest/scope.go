@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/ns1/ns1-go.v2/rest/model/dhcp"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
 )
 
 // ScopeService handles the 'scope' endpoints.

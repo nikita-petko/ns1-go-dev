@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"gopkg.in/ns1/ns1-go.v2/rest/model/monitor"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/monitor"
 )
 
 // JobsService handles 'monitoring/jobs' endpoint.

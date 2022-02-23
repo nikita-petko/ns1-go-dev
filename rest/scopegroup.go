@@ -3,7 +3,7 @@ package rest
 import (
 	"errors"
 	"fmt"
-	"gopkg.in/ns1/ns1-go.v2/rest/model/dhcp"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
 	"net/http"
 )
 

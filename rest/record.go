@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/ns1/ns1-go.v2/rest/model/dns"
+	"https://github.com/nkpetko/ns1-go.v2/rest/model/dns"
 )
 
 // RecordsService handles 'zones/ZONE/DOMAIN/TYPE' endpoint.
