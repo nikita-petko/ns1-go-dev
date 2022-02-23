@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/dns"
+	"gopkg.in/nkpetko/ns1-go.v2/rest/model/dns"
 )
 
 // DNSSECService handles 'zones/ZONE/dnssec' endpoint.

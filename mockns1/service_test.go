@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/mockns1"
+	"gopkg.in/nkpetko/ns1-go.v2/mockns1"
 )
 
 func TestService(t *testing.T) {

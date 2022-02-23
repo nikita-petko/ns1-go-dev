@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/mockns1"
-	api "gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest"
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/dns"
+	"gopkg.in/nkpetko/ns1-go.v2/mockns1"
+	api "gopkg.in/nkpetko/ns1-go.v2/rest"
+	"gopkg.in/nkpetko/ns1-go.v2/rest/model/dns"
 )
 
 func TestZone(t *testing.T) {

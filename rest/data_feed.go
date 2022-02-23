@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/data"
+	"gopkg.in/nkpetko/ns1-go.v2/rest/model/data"
 )
 
 // DataFeedsService handles 'data/feeds' endpoint.

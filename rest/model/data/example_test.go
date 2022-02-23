@@ -3,7 +3,7 @@ package data_test
 import (
 	"fmt"
 
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/data"
+	"gopkg.in/nkpetko/ns1-go.v2/rest/model/data"
 )
 
 func ExampleSource() {

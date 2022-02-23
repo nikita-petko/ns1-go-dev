@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/account"
+	"gopkg.in/nkpetko/ns1-go.v2/rest/model/account"
 )
 
 func TestCreateTeam(t *testing.T) {

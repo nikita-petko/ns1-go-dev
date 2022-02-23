@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/mockns1"
+	"gopkg.in/nkpetko/ns1-go.v2/mockns1"
 
-	api "gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest"
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/pulsar"
+	api "gopkg.in/nkpetko/ns1-go.v2/rest"
+	"gopkg.in/nkpetko/ns1-go.v2/rest/model/pulsar"
 )
 
 func TestPulsarJob(t *testing.T) {

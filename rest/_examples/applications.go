@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest/model/pulsar"
+	"gopkg.in/nkpetko/ns1-go.v2/rest/model/pulsar"
 
-	api "gopkg.in/nkpetko/ns1-go.v2/ns1-go.v2/rest"
+	api "gopkg.in/nkpetko/ns1-go.v2/rest"
 )
 
 var client *api.Client
