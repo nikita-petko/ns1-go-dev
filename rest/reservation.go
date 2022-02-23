@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/dhcp"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/dhcp"
 )
 
 // ReservationService handles the 'reservation' endpoints.

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"gopkg.in/nkpetko/ns1-go.v2/mockns1"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/mockns1"
 )
 
 func TestServeHTTP(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/data"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/data"
 )
 
 // Answer wraps the values of a Record's "filters" attribute
