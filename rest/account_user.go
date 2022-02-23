@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/account"
+	"github.com/nkpetko/ns1-go.v2/rest/model/account"
 )
 
 // UsersService handles 'account/users' endpoint.

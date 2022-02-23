@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/dns"
+	"github.com/nkpetko/ns1-go.v2/rest/model/dns"
 )
 
 // ZonesService handles 'zones' endpoint.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
+	"github.com/nkpetko/ns1-go.v2/rest/model/pulsar"
 )
 
 // JobsService handles 'pulsar/apps/APPID/jobs/JOBID' endpoint.

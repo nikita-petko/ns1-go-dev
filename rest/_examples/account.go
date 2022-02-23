@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	api "https://github.com/nkpetko/ns1-go.v2/rest"
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/account"
+	api "github.com/nkpetko/ns1-go.v2/rest"
+	"github.com/nkpetko/ns1-go.v2/rest/model/account"
 )
 
 var client *api.Client

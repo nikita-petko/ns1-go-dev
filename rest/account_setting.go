@@ -3,7 +3,7 @@ package rest
 import (
 	"net/http"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/account"
+	"github.com/nkpetko/ns1-go.v2/rest/model/account"
 )
 
 // SettingsService handles 'account/settings' endpoint.

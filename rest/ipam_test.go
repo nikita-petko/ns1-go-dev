@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"https://github.com/nkpetko/ns1-go.v2/mockns1"
-	api "https://github.com/nkpetko/ns1-go.v2/rest"
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/ipam"
+	"github.com/nkpetko/ns1-go.v2/mockns1"
+	api "github.com/nkpetko/ns1-go.v2/rest"
+	"github.com/nkpetko/ns1-go.v2/rest/model/ipam"
 )
 
 func TestIPAMAddrs(t *testing.T) {

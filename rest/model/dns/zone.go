@@ -3,7 +3,7 @@ package dns
 import (
 	"encoding/json"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/data"
+	"github.com/nkpetko/ns1-go.v2/rest/model/data"
 )
 
 // Zone wraps an NS1 /zone resource

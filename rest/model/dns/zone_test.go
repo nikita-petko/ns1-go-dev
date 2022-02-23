@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/nkpetko/ns1-go.v2/rest/model/data"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/data"
 )
 
 func TestUnmarshalZoneRecords(t *testing.T) {

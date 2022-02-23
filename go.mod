@@ -1,4 +1,4 @@
-module https://github.com/nkpetko/ns1-go.v2
+module github.com/nkpetko/ns1-go.v2
 
 go 1.12
 

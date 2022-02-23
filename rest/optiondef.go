@@ -3,8 +3,9 @@ package rest
 import (
 	"errors"
 	"fmt"
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
 	"net/http"
+
+	"github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
 )
 
 // OptionDefService handles the 'scope group' endpoints.

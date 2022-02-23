@@ -1,12 +1,13 @@
 package rest_test
 
 import (
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
 	"net/http"
 	"testing"
 
-	"https://github.com/nkpetko/ns1-go.v2/mockns1"
-	api "https://github.com/nkpetko/ns1-go.v2/rest"
+	"github.com/nkpetko/ns1-go.v2/rest/model/dhcp"
+
+	"github.com/nkpetko/ns1-go.v2/mockns1"
+	api "github.com/nkpetko/ns1-go.v2/rest"
 )
 
 func TestDHCPScopeGroup(t *testing.T) {

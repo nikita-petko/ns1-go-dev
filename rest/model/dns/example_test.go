@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/data"
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/dns"
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/filter"
+	"github.com/nkpetko/ns1-go.v2/rest/model/data"
+	"github.com/nkpetko/ns1-go.v2/rest/model/dns"
+	"github.com/nkpetko/ns1-go.v2/rest/model/filter"
 )
 
 func ExampleZone() {

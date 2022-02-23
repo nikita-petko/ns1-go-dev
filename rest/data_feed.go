@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/data"
+	"github.com/nkpetko/ns1-go.v2/rest/model/data"
 )
 
 // DataFeedsService handles 'data/feeds' endpoint.

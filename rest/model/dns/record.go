@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/data"
-	"https://github.com/nkpetko/ns1-go.v2/rest/model/filter"
+	"github.com/nkpetko/ns1-go.v2/rest/model/data"
+	"github.com/nkpetko/ns1-go.v2/rest/model/filter"
 )
 
 // Record wraps an NS1 /zone/{zone}/{domain}/{type} resource

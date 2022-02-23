@@ -7,13 +7,13 @@ import (
 	"os"
 	"time"
 
-	api "https://github.com/nkpetko/ns1-go.v2/rest"
+	api "github.com/nkpetko/ns1-go.v2/rest"
 )
 
 var client *api.Client
 
 const (
-	zoneName = "example.com"
+	zoneName   = "example.com"
 	recordName = "test.example.com"
 	recordType = "A"
 )

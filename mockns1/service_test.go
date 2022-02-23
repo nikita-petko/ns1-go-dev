@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/nkpetko/ns1-go.v2/mockns1"
 	"github.com/stretchr/testify/require"
-	"https://github.com/nkpetko/ns1-go.v2/mockns1"
 )
 
 func TestService(t *testing.T) {

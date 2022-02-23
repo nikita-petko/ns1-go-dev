@@ -8,11 +8,11 @@ import (
 	"net/url"
 	"testing"
 
-	api "https://github.com/nkpetko/ns1-go.v2/rest"
+	api "github.com/nkpetko/ns1-go.v2/rest"
 )
 
 // Service is a controller for a mock server suitable for responding to
-// https://github.com/nkpetko/ns1-go.v2 client requests. This object should always be
+// github.com/nkpetko/ns1-go.v2 client requests. This object should always be
 // initialized via the New() function.
 type Service struct {
 	// Address is set by New() to the listen address of the mock server
