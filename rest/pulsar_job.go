@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/pulsar"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/pulsar"
 )
 
 // JobsService handles 'pulsar/apps/APPID/jobs/JOBID' endpoint.

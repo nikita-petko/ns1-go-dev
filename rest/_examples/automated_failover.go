@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	api "gopkg.in/nkpetko/ns1-go.v2/rest"
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/data"
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/dns"
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/filter"
+	api "gopkg.in/nkpetko/ns1-go-dev.v2/rest"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/data"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/dns"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/filter"
 )
 
 var client *api.Client

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/account"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/account"
 )
 
 // TeamsService handles 'account/teams' endpoint.

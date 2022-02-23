@@ -1,4 +1,4 @@
-module gopkg.in/nkpetko/ns1-go.v2
+module gopkg.in/nkpetko/ns1-go-dev.v2
 
 go 1.12
 

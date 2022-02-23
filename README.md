@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ns1/ns1-go.svg?branch=v2)](https://travis-ci.org/ns1/ns1-go) [![GoDoc](https://godoc.org/gopkg.in/nkpetko/ns1-go.v2?status.svg)](https://godoc.org/gopkg.in/nkpetko/ns1-go.v2)
+[![Build Status](https://travis-ci.org/ns1/ns1-go.svg?branch=v2)](https://travis-ci.org/ns1/ns1-go) [![GoDoc](https://godoc.org/gopkg.in/nkpetko/ns1-go-dev.v2?status.svg)](https://godoc.org/gopkg.in/nkpetko/ns1-go-dev.v2)
 
 # NS1 Golang SDK
 
@@ -9,7 +9,7 @@ The golang client for the NS1 API: https://ns1.com/api/
 # Installing
 
 ```
-$ go get gopkg.in/nkpetko/ns1-go.v2
+$ go get gopkg.in/nkpetko/ns1-go-dev.v2
 ```
 
 Examples
@@ -28,7 +28,7 @@ import (
 	"os"
 	"time"
 
-	api "gopkg.in/nkpetko/ns1-go.v2/rest"
+	api "gopkg.in/nkpetko/ns1-go-dev.v2/rest"
 )
 
 func main() {

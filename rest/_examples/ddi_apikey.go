@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	api "gopkg.in/nkpetko/ns1-go.v2/rest"
-	"gopkg.in/nkpetko/ns1-go.v2/rest/model/account"
+	api "gopkg.in/nkpetko/ns1-go-dev.v2/rest"
+	"gopkg.in/nkpetko/ns1-go-dev.v2/rest/model/account"
 )
 
 var ddiClient *api.Client
