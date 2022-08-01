@@ -39,7 +39,7 @@ func (l Links) Next() string {
 // ParseLink parses a Link header value into a Links, mainly cribbed from:
 // https://github.com/peterhellberg/link/blob/master/link.go
 // The forceHTTPS parameter will rewrite any HTTP URLs it finds to HTTPS.
-func ParseLink(s string, forceHTTPS bool) Links {
+func ParseLink(s string, forceHTTPS bool, transformUrl string) Links {
 	if s == "" {
 		return nil
 	}
@@ -67,6 +67,15 @@ func ParseLink(s string, forceHTTPS bool) Links {
 			}
 
 			uri = url.String()
+		}
+
+		// If we have a transform URL, use it to transform the URL
+		if transformUrl != "" {
+			// Check if the current uri starts with the transform url
+			if strings.HasPrefix(uri, transformUrl) {
+				// If so, replace it with the transform url
+				uri = strings.Replace(uri, transformUrl, "", 1)
+			}
 		}
 
 		link := &Link{URI: uri, Extra: map[string]string{}}
