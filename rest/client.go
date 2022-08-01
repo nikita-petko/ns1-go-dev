@@ -207,13 +207,13 @@ func (c Client) DoWithPagination(req *http.Request, v interface{}, f NextFunc) (
 	// See PLAT-188
 	forceHTTPS := c.Endpoint.Scheme == "https"
 
-	nextURI := ParseLink(resp.Header.Get("Link"), forceHTTPS).Next()
+	nextURI := ParseLink(resp.Header.Get("Link"), forceHTTPS, c.Endpoint.String()).Next()
 	for nextURI != "" {
 		resp, err = f(&v, nextURI)
 		if err != nil {
 			return resp, err
 		}
-		nextURI = ParseLink(resp.Header.Get("Link"), forceHTTPS).Next()
+		nextURI = ParseLink(resp.Header.Get("Link"), forceHTTPS, c.Endpoint.String()).Next()
 	}
 	return resp, nil
 }
