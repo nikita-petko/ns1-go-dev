@@ -72,7 +72,7 @@ func ParseLink(s string, forceHTTPS bool, transformUrl string) Links {
 		// If we have a transform URL, use it to transform the URL
 		if transformUrl != "" {
 			// Check if the current uri starts with the transform url
-			if strings.HasPrefix(uri, transformUrl) {
+			if !strings.HasPrefix(uri, transformUrl) {
 				// If so, replace it with the transform url
 				uri = strings.Replace(uri, transformUrl, "", 1)
 			}
