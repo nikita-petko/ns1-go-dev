@@ -28,6 +28,8 @@ type Zone struct {
 	Expiry        int    `json:"expiry,omitempty"`
 	Hostmaster    string `json:"hostmaster,omitempty"`
 	PrimaryMaster string `json:"primary_master,omitempty"`
+	CreatedAt     int    `json:"created_at,omitempty"`
+	UpdatedAt     int    `json:"updated_at,omitempty"`
 
 	// If this is a linked zone, Link points to an existing standard zone,
 	// reusing its configuration and records. Link is a zones' domain name.
