@@ -58,6 +58,7 @@ type Client struct {
 	common service // Reuse a single struct instead of allocating one for each service on the heap.
 
 	// Services used for communicating with different components of the NS1 API.
+	Activity      *ActivityLogService
 	APIKeys       *APIKeysService
 	DataFeeds     *DataFeedsService
 	DataSources   *DataSourcesService
@@ -98,6 +99,7 @@ func NewClient(httpClient Doer, options ...func(*Client)) *Client {
 
 	c.common.client = c
 	c.APIKeys = (*APIKeysService)(&c.common)
+	c.Activity = (*ActivityLogService)(&c.common)
 	c.DataFeeds = (*DataFeedsService)(&c.common)
 	c.DataSources = (*DataSourcesService)(&c.common)
 	c.Jobs = (*JobsService)(&c.common)
